@@ -1,7 +1,7 @@
 {
-  "name": "fountainhead-bitd",
-  "version": "0.2.7",
-  "description": "decentralized autonomous database over bitcoin",
+  "name": "bitd",
+  "version": "22.5.16",
+  "description": "Decentralized autonomous database over Bitcoin.",
   "main": "index.js",
   "author": "21 Century Motor Company",
   "license": "MIT",
@@ -10,22 +10,22 @@
     "lint": "./node_modules/.bin/eslint ."
   },
   "dependencies": {
-    "axios": "^0.18.0",
-    "bitcoind-rpc": "^0.7.2",
-    "dotenv": "^6.0.0",
-    "eventsource": "^1.0.7",
+    "axios": "0.27.2",
+    "bitcoind-rpc": "0.9.1",
+    "dotenv": "16.0.1",
+    "eventsource": "2.0.2",
     "fountainhead-core": "0.0.9",
-    "iconv-lite": "^0.4.24",
-    "ip": "^1.1.5",
-    "level": "^4.0.0",
-    "mingo": "^2.2.4",
-    "mongodb": "^3.1.4",
-    "p-limit": "^2.0.0",
-    "p-queue": "^3.0.0",
-    "traverse": "^0.6.6",
-    "zeromq": "^4.6.0"
+    "iconv-lite": "0.6.3",
+    "ip": "2.0.0",
+    "level": "7.0.1",
+    "mingo": "6.0.6",
+    "mongodb": "4.6.0",
+    "p-limit": "2.3.0",
+    "p-queue": "3.2.0",
+    "traverse": "0.6.6",
+    "zeromq": "5.2.8"
   },
   "devDependencies": {
-    "eslint": "^5.6.1"
+    "eslint": "5.6.1"
   }
 }
