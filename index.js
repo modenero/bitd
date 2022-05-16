@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('dotenv').config({ path: __dirname + '/.env' })
 const Config = require('./config.js')
 const Info = require('./info.js')
 const Bit = require('./bit.js')
